@@ -6,9 +6,13 @@
 #mainPage-navbar {
   background-color: #e60012;
 }
+#mainPage-navbar.row {
+  height: inherit;
+}
 
 #img-navbar {
-  height: inherit;
+  height: 70px;
+  width: 140px;
 }
 
 #mainPage-title {
