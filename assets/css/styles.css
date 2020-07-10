@@ -1,0 +1,23 @@
+@font-face {
+  font-family: pretendo;
+  src: url(/assets/fonts/Pretendo.ttf);
+}
+
+#mainPage-navbar {
+  background-color: #e60012;
+}
+
+#img-navbar {
+  height: inherit;
+}
+
+#mainPage-title {
+  margin-top: 0.5em;
+  font-size: 4.5vw;
+  font-weight: bold;
+  font-family: pretendo;
+  border: 0.4em solid #e60012;
+  border-radius: 8em;
+  text-align: center;
+  color: #e60012;
+}
