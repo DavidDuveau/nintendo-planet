@@ -1,6 +1,6 @@
 @font-face {
-  font-family: nintend;
-  src: url(/assets/fonts/NintendBold-RM8E.ttf);
+  font-family: superMario;
+  src: url(/assets/fonts/SuperMarioBrothers-4nmp.ttf);
 }
 
 @font-face {
@@ -33,13 +33,22 @@
 
 .attrArticle {
   border: 2px solid grey;
-  border-radius: 0.3em;
+  border-radius: 5px;
   text-align: justify;
 }
 
 .attrArticle-title {
   color: #5a5a5a;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
+  font-family: snes;
+}
+
+.img-attrArticle {
+  height: 7em;
+  width: 12.4em;
+  border-radius: 5px;
+  float: left;
+  margin-right: 0.5em;
 }
