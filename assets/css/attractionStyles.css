@@ -31,14 +31,22 @@
   width: 140px;
 }
 
+#mushroomAttr-title {
+  text-align: center;
+  font-family: superMario;
+}
+
 .attrArticle {
+  height: inherit;
   border: 2px solid grey;
   border-radius: 5px;
   text-align: justify;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 .attrArticle-title {
-  color: #5a5a5a;
+  color: rgb(100, 100, 100);
   font-size: 3em;
   font-weight: bold;
   text-align: center;
@@ -46,6 +54,7 @@
 }
 
 .img-attrArticle {
+  background-color: rgb(160, 160, 160);
   height: 7em;
   width: 12.4em;
   border-radius: 5px;
