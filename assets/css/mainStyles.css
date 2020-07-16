@@ -1,0 +1,42 @@
+@font-face {
+  font-family: nintend;
+  src: url(/assets/fonts/NintendBold-RM8E.ttf);
+}
+
+@font-face {
+  font-family: snes;
+  src: url(/assets/fonts/SnesItalic-vmAPZ.ttf);
+}
+
+#mainPage-navbar {
+  background-color: #e60012;
+}
+#mainPage-navbar.row {
+  height: inherit;
+}
+
+#navbar-link {
+  margin: 0;
+  text-align: center;
+}
+
+#navbar-link a {
+  font-family: snes;
+  font-size: 2em;
+}
+
+#img-navbar {
+  height: 68px;
+  width: 140px;
+}
+
+#mainPage-title {
+  padding: 0.3em;
+  font-size: 4.5vw;
+  font-weight: bolder;
+  font-family: nintend;
+  border: 0.4em solid #e60012;
+  border-radius: 8em;
+  text-align: center;
+  color: #e60012;
+}
