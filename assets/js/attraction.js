@@ -1,4 +1,4 @@
-let title = "MusHRoOm KIngDom";
+/* let title = "MusHRoOm KIngDom";
 let colors = [
   "yellow",
   "blue",
@@ -14,4 +14,4 @@ for (let i = 0; i < letters.length; i++) {
   document.getElementById("mushroomAttr-title").innerHTML = letters[
     i
   ].fontcolor(colors[i]);
-}
+} */
