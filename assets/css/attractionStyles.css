@@ -8,6 +8,11 @@
   src: url(/assets/fonts/SnesItalic-vmAPZ.ttf);
 }
 
+@font-face {
+  font-family: zelda;
+  src: url(/assets/fonts/Triforce-y07d.ttf);
+}
+
 #attractionPage-navbar {
   background-color: #e60012;
 }
@@ -31,22 +36,29 @@
   width: 140px;
 }
 
-#mushroomAttr-title {
+.title-attraction {
   text-align: center;
+}
+
+#mushroomAttr-title {
   font-family: superMario;
 }
 
+#hyruleAttr-title {
+  font-family: zelda;
+  font-size: 5em;
+}
+
 .attrArticle {
-  height: inherit;
+  padding: 1em;
+  height: inherit !important;
   border: 2px solid grey;
   border-radius: 5px;
   text-align: justify;
-  margin-right: 1em;
-  margin-bottom: 1em;
 }
 
 .attrArticle-title {
-  color: rgb(100, 100, 100);
+  color: rgb(80, 80, 80);
   font-size: 3em;
   font-weight: bold;
   text-align: center;
