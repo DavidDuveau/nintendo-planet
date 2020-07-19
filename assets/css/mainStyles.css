@@ -8,7 +8,11 @@
   src: url(/assets/fonts/SnesItalic-vmAPZ.ttf);
 }
 
-#mainPage-navbar {
+.nav-wrapper {
+  background-color: #e60012;
+}
+
+/* #mainPage-navbar {
   background-color: #e60012;
 }
 #mainPage-navbar.row {
@@ -19,15 +23,26 @@
   margin: 0;
   text-align: center;
 }
+*/
 
-#navbar-link a {
+.navbar-link {
+  width: 5em;
   font-family: snes;
   font-size: 2em;
+  border-left: 1px solid red;
+  text-align: center;
 }
 
-#img-navbar {
-  height: 68px;
-  width: 140px;
+.brand-logo {
+  font-size: 1em !important;
+  padding-left: 0.5em !important;
+}
+
+#nintendo-logo {
+  font-family: nintend;
+  border: 0.3em solid #fff;
+  border-radius: 30px;
+  padding: 0.4em;
 }
 
 #mainPage-title {
