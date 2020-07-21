@@ -28,7 +28,10 @@
 
         <nav>
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo"><span id="nintendo-logo">Nintendo</span></a>
+                <a href="#" class="brand-logo left"><span id="nintendo-logo">Nintendo</span></a>
+
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i
+                        class="material-icons">menu</i></a>
 
                 <ul id="nav-mobile" class="right hide-on-med-and-down" id="navbar-link">
                     <li><a href="#" class="navbar-link">Billets</a></li>
@@ -47,40 +50,41 @@
             </div>
         </nav>
 
-        <!--
-        <nav id="mainPage-navbar" class="row">
+        <ul id="mobile-demo" class="sidenav">
 
-            <img src="/assets/images/NintendoLogo_nav.png" alt="nintendo logo" id="img-navbar" class="col s1">
+            <li><a href="#"> Billets</a></li>
 
-            <div class="col s10">
-                <div class="row" id="navbar-link">
-                    <div class="col s2">
-                        <a href="#">Billets</a>
-                    </div>
+            <li>
+                <div class="divider"></div>
+            </li>
 
-                    <div class="col s2">
-                        <a href="/html/attraction.html" target="_blank">Attractions</a>
-                    </div>
+            <li><a href="#">Sejour</a></li>
 
-                    <div class="col s2">
-                        <a href="#">Sejour</a>
-                    </div>
+            <li>
+                <div class="divider"></div>
+            </li>
 
-                    <div class="col s2">
-                        <a href="#">Boutiques</a>
-                    </div>
+            <li><a href="/html/attraction.html" target="_blank">Attractions</a></li>
 
-                    <div class="col s2">
-                        <a href="#">Les Alentours</a>
-                    </div>
+            <li>
+                <div class="divider"></div>
+            </li>
 
-                    <div class="col s2">
-                        <a href="#">CompteNintendo</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    -->
+            <li><a href="#!">Boutiques</a></li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li><a href="#">Aux Alentours</a></li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li><a href="#">Mon Compte</a></li>
+        </ul>
+
         <div class="row">
             <h1 id="mainPage-title" class="col s4 offset-s4">
                 Nintendo<br>
@@ -96,6 +100,9 @@
 
     <!--Js script for materialize-->
     <script src="/assets/js/materialize.js"></script>
+
+    <!--sidenav script-->
+    <script src="/assets/js/mainPage.js"></script>
 
 </body>
 
