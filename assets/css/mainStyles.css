@@ -12,19 +12,6 @@
   background-color: #e60012;
 }
 
-/* #mainPage-navbar {
-  background-color: #e60012;
-}
-#mainPage-navbar.row {
-  height: inherit;
-}
-
-#navbar-link {
-  margin: 0;
-  text-align: center;
-}
-*/
-
 .navbar-link {
   width: 5em;
   font-family: snes;
@@ -36,6 +23,12 @@
 .brand-logo {
   font-size: 1em !important;
   padding-left: 0.5em !important;
+}
+
+#img-myNintendoLogo_nav {
+  padding: 5px 0;
+  margin-bottom: -22.8px;
+  height: 64px;
 }
 
 #nintendo-logo {
@@ -57,4 +50,20 @@
 }
 
 .sidenav {
+  width: 13em;
+}
+.sidenav a {
+  color: #e60012 !important;
+  font-size: x-large !important;
+  text-align: center;
+}
+
+#img-myNintendoLogo_side {
+  padding-top: 0.5em;
+  height: 1.7em;
+}
+
+.divider {
+  margin: 0 !important;
+  background-color: rgb(230, 0, 18);
 }
