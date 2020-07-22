@@ -27,7 +27,7 @@
 
 #img-myNintendoLogo_nav {
   padding: 5px 0;
-  margin-bottom: -22.8px;
+  margin-bottom: -28px;
   height: 64px;
 }
 
@@ -39,23 +39,33 @@
 }
 
 #mainPage-title {
-  padding: 0.3em;
-  font-size: 4.5vw;
+  padding: 0.2em;
+  font-size: 8vw;
   font-weight: bolder;
   font-family: nintend;
-  border: 0.4em solid #e60012;
+  border: 0.3em solid #e60012;
   border-radius: 8em;
   text-align: center;
   color: #e60012;
 }
 
 .sidenav {
-  width: 13em;
+  width: 30vw;
 }
+
 .sidenav a {
   color: #e60012 !important;
-  font-size: x-large !important;
+  font-size: xx-large !important;
   text-align: center;
+}
+
+#img-side {
+  display: flex;
+  justify-content: center;
+}
+
+.img-sidenav {
+  width: 20vw;
 }
 
 #img-myNintendoLogo_side {
@@ -63,7 +73,13 @@
   height: 1.7em;
 }
 
+.divid {
+  display: flex;
+  justify-content: center;
+}
+
 .divider {
+  width: 20vw;
   margin: 0 !important;
-  background-color: rgb(230, 0, 18);
+  background-color: #e60012;
 }
