@@ -38,6 +38,7 @@ function changeImage() {
     "/assets/images/sidenav/cloud_side.png",
     "/assets/images/sidenav/mask_side.png",
     "/assets/images/sidenav/koopa_side.png",
+    "/assets/images/sidenav/link_side.png",
   ];
   let images = document.getElementById("img-sidenav_0");
   let src = images.getAttribute("src");
