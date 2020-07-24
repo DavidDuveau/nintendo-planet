@@ -23,154 +23,230 @@
 
 <body>
 
-    <header id="attractionPage-header">
+    <header id="mainPage-header">
 
-        <nav id="attractionPage-navbar" class="row">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo left"><span id="nintendo-logo">Nintendo</span></a>
 
-            <img src="/assets/images/NintendoLogo_nav.png" alt="nintendo logo" id="img-navbar" class="col s1">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons"
+                        onclick="changeImage()">menu</i></a>
 
-            <div class="col s10">
-                <div class="row" id="navbar-link">
-                    <div class="col s2">
-                        <a href="#">Billets</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down" id="navbar-link">
+                    <li><a href="#" class="navbar-link">Billets</a></li>
+
+                    <li><a href="#" class="navbar-link">Sejour</a></li>
+
+                    <li><a href="/html/attraction.html" class="navbar-link" target="_blank">Attraction</a></li>
+
+                    <li><a href="#" class="navbar-link">Boutiques</a></li>
+
+                    <li><a href="#" class="navbar-link">Aux alentours</a></li>
+
+                    <li><a href="#" class="navbar-link"><img src="/assets/images/My_Nintendo_Logo_nav.png"
+                                alt="My nintendo logo" id="img-myNintendoLogo_nav"></a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <ul id="mobile-demo" class="sidenav">
+            <div id="img-side">
+                <img src="/assets/images/sidenav/mario_side.png" id="img-sidenav_0" class="img-sidenav">
+            </div>
+
+
+
+            <li><a href="#!" class="material-icons">local_offer</a></li>
+
+            <li>
+                <div class="divid">
+                    <div class="divider"></div>
+                </div>
+            </li>
+
+            <li><a href="#!" class="material-icons">local_hotel</a></li>
+
+            <li>
+                <div class="divid">
+                    <div class="divider"></div>
+                </div>
+            </li>
+
+            <li><a href="/html/attraction.html" target="_blank" class="material-icons">local_activity</a></li>
+
+            <li>
+                <div class="divid">
+                    <div class="divider"></div>
+                </div>
+            </li>
+
+            <li><a href="#!" class="material-icons">shopping_basket</a></li>
+
+            <li>
+                <div class="divid">
+                    <div class="divider"></div>
+                </div>
+            </li>
+
+            <li><a href="#!" class="material-icons">landscape</a></li>
+
+            <li>
+                <div class="divid">
+                    <div class="divider"></div>
+                </div>
+            </li>
+
+            <li><a href="#!"><img src="/assets/images/sidenav/my-nintendo-logo_sidenav.png" alt="My nintendo logo"
+                        id="img-myNintendoLogo_side"></a></li>
+        </ul>
+
+    </header>
+
+    <div class="container">
+        <main>
+            <h2 id="mushroomAttr-title" class="title-attraction">Mushroom Kingdom</h2>
+
+            <div class="row">
+                <div class="col s11  l6">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="/assets/images/mario-kart.jpg">
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title activator attrArticle-title">Mario Kart
+                                Highway<i class="material-icons right">add</i></span>
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Mario Kart Highway<i
+                                    class="material-icons right">close</i></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis praesentium sed provident
+                                temporibus
+                                dolores, ea reiciendis incidunt sapiente. Sed suscipit vel autem vero ex velit,
+                                perferendis
+                                repellendus tempora itaque voluptates! Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit.
+                                Facere accusamus error, ad inventore praesentium commodi minima, nobis modi itaque,
+                                minus
+                                quibusdam
+                                laborum dolor ipsam reiciendis alias. Placeat ipsum nemo error. Lorem ipsum dolor sit
+                                amet
+                                consectetur adipisicing elit. Atque consequuntur ducimus temporibus quos tenetur
+                                asperiores?
+                                Ab,
+                                fugiat corrupti? Enim neque asperiores repudiandae deserunt quo odio magni perferendis
+                                cupiditate ab
+                                quasi?
+                            </p>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="col s2">
-                        <a href="#">Attractions</a>
-                    </div>
+                <div class="col s12 l6">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="/assets/images/Luigi-mansion.png" alt="Luigi's Mansion" class="activator">
+                        </div>
 
-                    <div class="col s2">
-                        <a href="#">Sejour</a>
-                    </div>
+                        <div class="card-content">
+                            <span class="card-title activator attrArticle-title">Luigi's Mansion<i
+                                    class="material-icons right">add</i></span>
+                        </div>
 
-                    <div class="col s2">
-                        <a href="#">Boutiques</a>
-                    </div>
-
-                    <div class="col s2">
-                        <a href="#">Les Alentours</a>
-                    </div>
-
-                    <div class="col s2">
-                        <a href="#">CompteNintendo</a>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Luigi's Mansion<i
+                                    class="material-icons right">close</i></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis praesentium sed provident
+                                temporibus
+                                dolores, ea reiciendis incidunt sapiente. Sed suscipit vel autem vero ex velit,
+                                perferendis
+                                repellendus tempora itaque voluptates! Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit.
+                                Facere accusamus error, ad inventore praesentium commodi minima, nobis modi itaque,
+                                minus
+                                quibusdam
+                                laborum dolor ipsam reiciendis alias. Placeat ipsum nemo error. Lorem ipsum dolor sit
+                                amet
+                                consectetur adipisicing elit. Atque consequuntur ducimus temporibus quos tenetur
+                                asperiores?
+                                Ab,
+                                fugiat corrupti? Enim neque asperiores repudiandae deserunt quo odio magni perferendis
+                                cupiditate ab
+                                quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos praesentium nihil
+                                iusto quas mollitia iure doloribus reprehenderit, commodi optio id quod quos inventore
+                                nobis modi labore corrupti consequatur. Rerum, voluptatum.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
 
-    <main>
-        <h2 id="mushroomAttr-title" class="title-attraction">Mushroom Kingdom</h2>
+            <h2 id="hyruleAttr-title" class="title-attraction">Hyrule Castle</h2>
 
-        <div class="row">
-            <div class="col s11  l6">
-                <article class="attrArticle">
-                    <h3 class="attrArticle-title">Mario Kart Highway</h3>
+            <div class="row">
+                <div class="col s11 l6">
+                    <article class="attrArticle">
+                        <h3 class="attrArticle-title">Stronghold Defense</h3>
 
-                    <p>
-                        <img src="/assets/images/mario-kart.jpg" alt="Mario Kart HighWay" class="img-attrArticle">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis praesentium sed provident
-                        temporibus
-                        dolores, ea reiciendis incidunt sapiente. Sed suscipit vel autem vero ex velit, perferendis
-                        repellendus tempora itaque voluptates! Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit.
-                        Facere accusamus error, ad inventore praesentium commodi minima, nobis modi itaque, minus
-                        quibusdam
-                        laborum dolor ipsam reiciendis alias. Placeat ipsum nemo error. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Atque consequuntur ducimus temporibus quos tenetur asperiores?
-                        Ab,
-                        fugiat corrupti? Enim neque asperiores repudiandae deserunt quo odio magni perferendis
-                        cupiditate ab
-                        quasi?
-                    </p>
-                </article>
+                        <p>
+                            <img src="/assets/images/stronghold-defense.jpg" alt="Stronghold Hyrule Castle"
+                                class="img-attrArticle">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iure at animi
+                            necessitatibus
+                            odit nihil rem repudiandae autem laudantium corporis! Iure dolores veniam sit exercitationem
+                            libero
+                            dolor doloremque quidem fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Molestias a
+                            repellendus quos quae praesentium, modi perferendis cumque consectetur dolore quidem minima
+                            incidunt
+                            accusantium non maxime alias assumenda, laboriosam corporis doloremque! Lorem ipsum dolor
+                            sit
+                            amet
+                            consectetur adipisicing elit. Quisquam cupiditate ut et dolorem iusto quaerat assumenda eius
+                            autem
+                            quas,
+                            optio numquam? Dolores repellat adipisci in, quasi incidunt soluta provident iure.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col s11 l6">
+                    <article class="attrArticle">
+                        <h3 class="attrArticle-title">Goron Volcano City</h3>
+
+                        <p>
+                            <img src="/assets/images/goron-city.png" alt="Goron City" class="img-attrArticle">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat obcaecati necessitatibus
+                            tempora,
+                            quas in mollitia distinctio similique porro doloremque nostrum harum quam, ratione
+                            inventore, ad
+                            quo
+                            minus accusantium exercitationem? Veniam. Lorem ipsum, dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Quisquam, accusamus corrupti dicta sapiente tempora mollitia voluptatibus, nulla velit
+                            suscipit
+                            itaque at aspernatur inventore eius praesentium provident sed. Doloremque, dolorem numquam.
+                            Lorem
+                            ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, esse incidunt possimus
+                            reiciendis
+                            vel
+                            fuga dolore in odio nostrum exercitationem voluptate quia eligendi, facere corrupti,
+                            repellendus
+                            officia voluptatem. Ea, placeat? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatem illum magni a doloremque natus. Hic eius velit dolore cumque magnam, consequatur
+                            doloremque, molestiae facere non nisi, aut excepturi odio? Eos.
+                        </p>
+                    </article>
+                </div>
             </div>
+        </main>
+    </div>
 
-            <div class="col s12 l6">
-                <article class="attrArticle">
-                    <h3 class="attrArticle-title">Luigi's Mansion of spook</h3>
-
-                    <p>
-                        <img src="/assets/images/Luigi-mansion.png" alt="Luigi's Mansion" class="img-attrArticle">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt aliquam magnam
-                        deleniti
-                        velit dignissimos, dolore accusamus nam a, possimus repellat, qui molestias eos iste
-                        corporis.
-                        Doloremque quibusdam quis veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repellat
-                        ratione laborum architecto nihil consectetur eligendi recusandae atque enim officiis optio
-                        suscipit,
-                        nostrum omnis earum modi! Omnis molestias nam quis odit? Lorem ipsum dolor sit, amet
-                        consectetur
-                        adipisicing elit. Voluptatem similique eius ratione animi vitae dolorem alias dolorum dolor
-                        vero
-                        ullam. Fugiat, quod tempore? Mollitia quaerat animi temporibus? Commodi, autem praesentium.
-
-                    </p>
-                </article>
-            </div>
-        </div>
-
-        <h2 id="hyruleAttr-title" class="title-attraction">Hyrule Castle</h2>
-
-        <div class="row">
-            <div class="col s11 l6">
-                <article class="attrArticle">
-                    <h3 class="attrArticle-title">Stronghold Defense</h3>
-
-                    <p>
-                        <img src="/assets/images/stronghold-defense.jpg" alt="Stronghold Hyrule Castle"
-                            class="img-attrArticle">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iure at animi
-                        necessitatibus
-                        odit nihil rem repudiandae autem laudantium corporis! Iure dolores veniam sit exercitationem
-                        libero
-                        dolor doloremque quidem fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias a
-                        repellendus quos quae praesentium, modi perferendis cumque consectetur dolore quidem minima
-                        incidunt
-                        accusantium non maxime alias assumenda, laboriosam corporis doloremque! Lorem ipsum dolor
-                        sit
-                        amet
-                        consectetur adipisicing elit. Quisquam cupiditate ut et dolorem iusto quaerat assumenda eius
-                        autem
-                        quas,
-                        optio numquam? Dolores repellat adipisci in, quasi incidunt soluta provident iure.
-                    </p>
-                </article>
-            </div>
-
-            <div class="col s11 l6">
-                <article class="attrArticle">
-                    <h3 class="attrArticle-title">Goron Volcano City</h3>
-
-                    <p>
-                        <img src="/assets/images/goron-city.png" alt="Goron City" class="img-attrArticle">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat obcaecati necessitatibus
-                        tempora,
-                        quas in mollitia distinctio similique porro doloremque nostrum harum quam, ratione
-                        inventore, ad
-                        quo
-                        minus accusantium exercitationem? Veniam. Lorem ipsum, dolor sit amet consectetur
-                        adipisicing
-                        elit.
-                        Quisquam, accusamus corrupti dicta sapiente tempora mollitia voluptatibus, nulla velit
-                        suscipit
-                        itaque at aspernatur inventore eius praesentium provident sed. Doloremque, dolorem numquam.
-                        Lorem
-                        ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, esse incidunt possimus
-                        reiciendis
-                        vel
-                        fuga dolore in odio nostrum exercitationem voluptate quia eligendi, facere corrupti,
-                        repellendus
-                        officia voluptatem. Ea, placeat? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptatem illum magni a doloremque natus. Hic eius velit dolore cumque magnam, consequatur
-                        doloremque, molestiae facere non nisi, aut excepturi odio? Eos.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </main>
 
     <script src="/assets/js/attraction.js"></script>
     <script src="/assets/js/materialize.js"></script>
