@@ -130,3 +130,10 @@
   float: left;
   margin-right: 0.5em;
 }
+
+fieldset {
+  border-radius: 5px;
+}
+p {
+  text-align: justify;
+}
